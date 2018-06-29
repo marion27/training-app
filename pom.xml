@@ -4,7 +4,7 @@
   <groupId>com.mycompany.app</groupId>
   <artifactId>training-app</artifactId>
   <packaging>jar</packaging>
-  <version>1.3</version>
+  <version>1.4</version>
   <name>training-app</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -88,6 +88,11 @@
             </goals>
           </execution>
         </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.sonarsource.scanner.maven</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>3.4.0.905</version>
       </plugin>
     </plugins>
   </build>
